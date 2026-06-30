@@ -1,0 +1,81 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Type selector */
+
+p {
+  font-size: 16px;
+  /* margin: 10px 20px 10px 20px; */
+  margin-bottom: 10px;
+  /* padding: 1px 2px 3px 4px; */
+}
+
+/* Class selectors */
+
+.highlight {
+  background-color: blueviolet;
+}
+
+/* Id selectors */
+
+#header {
+  background-color: #3c3c;
+}
+
+/* Attribute selectors */
+
+input[type="text"] {
+  border: 3px solid rgb(5, 176, 176);
+}
+
+/* Descendant selectors */
+
+article p {
+  font-style: italic;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+div > p {
+    background: orange;
+}
+
+div > section{
+    background-color: aqua;
+}
+
+section > p{
+    color: rgb(56, 111, 0);
+}
+
+/* Adjacent selectors */
+
+h1 + p{
+    font-weight: bold;;
+    background-color: green;
+}
+
+h2 ~ p {
+    color: blue;
+}
+
+a:hover{
+    background-color: violet;
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+    color: rgb(0, 55, 57);
+}
+
+p::first-letter{
+    color: red;
+    background-color: rgb(40, 255, 104);
+}
+
+h1,h2,h3{
+    color: rgb(255, 0, 0);
+}
