@@ -110,5 +110,55 @@ h2 {
 }
 
 .login-btn:hover {
-  background-color: #6b66ff;
+  background-color: #00d5ff;
+  color: #9e0303;
+  font-weight: bold;
+}
+
+.nav3{
+    background-color: #35aad5;
+    padding: 10px;
+}
+
+.nav3 ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav3 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.nav3 .dropdown-content{
+    display: none;
+}
+
+.nav3 .dropdown:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    background-color: #3e3e3e;
+}
+
+.nav3 .login-btn{
+  padding: 10px;
+  background-color: #0f2a97;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #951919;
+  color: #06039e;
+  font-weight: bold;
 }
